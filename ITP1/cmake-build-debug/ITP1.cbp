@@ -140,6 +140,39 @@
 		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/5_D.cpp">
 			<Option target="ITP1"/>
 		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_A.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_B.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_C.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_D.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_A.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_B.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_C.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_D.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_A.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_B.cpp">
+			<Option target="ITP1"/>
+		</Unit>
+		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_C.cpp">
+			<Option target="ITP1"/>
+		</Unit>
 		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

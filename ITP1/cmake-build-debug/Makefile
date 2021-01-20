@@ -663,6 +663,303 @@ ITP1/fast:
 	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/5_D.cpp.s
 .PHONY : 5_D.cpp.s
 
+6_A.o: 6_A.cpp.o
+
+.PHONY : 6_A.o
+
+# target to build an object file
+6_A.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_A.cpp.o
+.PHONY : 6_A.cpp.o
+
+6_A.i: 6_A.cpp.i
+
+.PHONY : 6_A.i
+
+# target to preprocess a source file
+6_A.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_A.cpp.i
+.PHONY : 6_A.cpp.i
+
+6_A.s: 6_A.cpp.s
+
+.PHONY : 6_A.s
+
+# target to generate assembly for a file
+6_A.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_A.cpp.s
+.PHONY : 6_A.cpp.s
+
+6_B.o: 6_B.cpp.o
+
+.PHONY : 6_B.o
+
+# target to build an object file
+6_B.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_B.cpp.o
+.PHONY : 6_B.cpp.o
+
+6_B.i: 6_B.cpp.i
+
+.PHONY : 6_B.i
+
+# target to preprocess a source file
+6_B.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_B.cpp.i
+.PHONY : 6_B.cpp.i
+
+6_B.s: 6_B.cpp.s
+
+.PHONY : 6_B.s
+
+# target to generate assembly for a file
+6_B.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_B.cpp.s
+.PHONY : 6_B.cpp.s
+
+6_C.o: 6_C.cpp.o
+
+.PHONY : 6_C.o
+
+# target to build an object file
+6_C.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_C.cpp.o
+.PHONY : 6_C.cpp.o
+
+6_C.i: 6_C.cpp.i
+
+.PHONY : 6_C.i
+
+# target to preprocess a source file
+6_C.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_C.cpp.i
+.PHONY : 6_C.cpp.i
+
+6_C.s: 6_C.cpp.s
+
+.PHONY : 6_C.s
+
+# target to generate assembly for a file
+6_C.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_C.cpp.s
+.PHONY : 6_C.cpp.s
+
+6_D.o: 6_D.cpp.o
+
+.PHONY : 6_D.o
+
+# target to build an object file
+6_D.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_D.cpp.o
+.PHONY : 6_D.cpp.o
+
+6_D.i: 6_D.cpp.i
+
+.PHONY : 6_D.i
+
+# target to preprocess a source file
+6_D.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_D.cpp.i
+.PHONY : 6_D.cpp.i
+
+6_D.s: 6_D.cpp.s
+
+.PHONY : 6_D.s
+
+# target to generate assembly for a file
+6_D.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/6_D.cpp.s
+.PHONY : 6_D.cpp.s
+
+7_A.o: 7_A.cpp.o
+
+.PHONY : 7_A.o
+
+# target to build an object file
+7_A.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_A.cpp.o
+.PHONY : 7_A.cpp.o
+
+7_A.i: 7_A.cpp.i
+
+.PHONY : 7_A.i
+
+# target to preprocess a source file
+7_A.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_A.cpp.i
+.PHONY : 7_A.cpp.i
+
+7_A.s: 7_A.cpp.s
+
+.PHONY : 7_A.s
+
+# target to generate assembly for a file
+7_A.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_A.cpp.s
+.PHONY : 7_A.cpp.s
+
+7_B.o: 7_B.cpp.o
+
+.PHONY : 7_B.o
+
+# target to build an object file
+7_B.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_B.cpp.o
+.PHONY : 7_B.cpp.o
+
+7_B.i: 7_B.cpp.i
+
+.PHONY : 7_B.i
+
+# target to preprocess a source file
+7_B.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_B.cpp.i
+.PHONY : 7_B.cpp.i
+
+7_B.s: 7_B.cpp.s
+
+.PHONY : 7_B.s
+
+# target to generate assembly for a file
+7_B.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_B.cpp.s
+.PHONY : 7_B.cpp.s
+
+7_C.o: 7_C.cpp.o
+
+.PHONY : 7_C.o
+
+# target to build an object file
+7_C.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_C.cpp.o
+.PHONY : 7_C.cpp.o
+
+7_C.i: 7_C.cpp.i
+
+.PHONY : 7_C.i
+
+# target to preprocess a source file
+7_C.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_C.cpp.i
+.PHONY : 7_C.cpp.i
+
+7_C.s: 7_C.cpp.s
+
+.PHONY : 7_C.s
+
+# target to generate assembly for a file
+7_C.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_C.cpp.s
+.PHONY : 7_C.cpp.s
+
+7_D.o: 7_D.cpp.o
+
+.PHONY : 7_D.o
+
+# target to build an object file
+7_D.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_D.cpp.o
+.PHONY : 7_D.cpp.o
+
+7_D.i: 7_D.cpp.i
+
+.PHONY : 7_D.i
+
+# target to preprocess a source file
+7_D.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_D.cpp.i
+.PHONY : 7_D.cpp.i
+
+7_D.s: 7_D.cpp.s
+
+.PHONY : 7_D.s
+
+# target to generate assembly for a file
+7_D.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/7_D.cpp.s
+.PHONY : 7_D.cpp.s
+
+8_A.o: 8_A.cpp.o
+
+.PHONY : 8_A.o
+
+# target to build an object file
+8_A.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_A.cpp.o
+.PHONY : 8_A.cpp.o
+
+8_A.i: 8_A.cpp.i
+
+.PHONY : 8_A.i
+
+# target to preprocess a source file
+8_A.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_A.cpp.i
+.PHONY : 8_A.cpp.i
+
+8_A.s: 8_A.cpp.s
+
+.PHONY : 8_A.s
+
+# target to generate assembly for a file
+8_A.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_A.cpp.s
+.PHONY : 8_A.cpp.s
+
+8_B.o: 8_B.cpp.o
+
+.PHONY : 8_B.o
+
+# target to build an object file
+8_B.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_B.cpp.o
+.PHONY : 8_B.cpp.o
+
+8_B.i: 8_B.cpp.i
+
+.PHONY : 8_B.i
+
+# target to preprocess a source file
+8_B.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_B.cpp.i
+.PHONY : 8_B.cpp.i
+
+8_B.s: 8_B.cpp.s
+
+.PHONY : 8_B.s
+
+# target to generate assembly for a file
+8_B.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_B.cpp.s
+.PHONY : 8_B.cpp.s
+
+8_C.o: 8_C.cpp.o
+
+.PHONY : 8_C.o
+
+# target to build an object file
+8_C.cpp.o:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_C.cpp.o
+.PHONY : 8_C.cpp.o
+
+8_C.i: 8_C.cpp.i
+
+.PHONY : 8_C.i
+
+# target to preprocess a source file
+8_C.cpp.i:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_C.cpp.i
+.PHONY : 8_C.cpp.i
+
+8_C.s: 8_C.cpp.s
+
+.PHONY : 8_C.s
+
+# target to generate assembly for a file
+8_C.cpp.s:
+	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/8_C.cpp.s
+.PHONY : 8_C.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -732,6 +1029,39 @@ help:
 	@echo "... 5_D.o"
 	@echo "... 5_D.i"
 	@echo "... 5_D.s"
+	@echo "... 6_A.o"
+	@echo "... 6_A.i"
+	@echo "... 6_A.s"
+	@echo "... 6_B.o"
+	@echo "... 6_B.i"
+	@echo "... 6_B.s"
+	@echo "... 6_C.o"
+	@echo "... 6_C.i"
+	@echo "... 6_C.s"
+	@echo "... 6_D.o"
+	@echo "... 6_D.i"
+	@echo "... 6_D.s"
+	@echo "... 7_A.o"
+	@echo "... 7_A.i"
+	@echo "... 7_A.s"
+	@echo "... 7_B.o"
+	@echo "... 7_B.i"
+	@echo "... 7_B.s"
+	@echo "... 7_C.o"
+	@echo "... 7_C.i"
+	@echo "... 7_C.s"
+	@echo "... 7_D.o"
+	@echo "... 7_D.i"
+	@echo "... 7_D.s"
+	@echo "... 8_A.o"
+	@echo "... 8_A.i"
+	@echo "... 8_A.s"
+	@echo "... 8_B.o"
+	@echo "... 8_B.i"
+	@echo "... 8_B.s"
+	@echo "... 8_C.o"
+	@echo "... 8_C.i"
+	@echo "... 8_C.s"
 .PHONY : help
 
 
