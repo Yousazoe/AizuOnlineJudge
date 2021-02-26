@@ -1,8 +1,28 @@
-# Introduction to Programming I
 
 
+
+
+
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gn4nj407c6j311i0u0jwr.jpg)
+
+<div align=center>
+  <font size="3">
+    <i>
+      <a href="https://www.behance.net/gallery/64152259/Keyclack-posters">Keyclack posters</a> by 
+      <a href="https://www.behance.net/MChahin">Mohamed Chahin</a>
+    </i>
+  </font>
+</div>
+
+
+
+
+### 引言
 
 Acquire fundamental elements of programming languages.
+
+
+
 
 
 
@@ -550,7 +570,7 @@ int main() {
 
 
 
-![](https://tva1.sinaimg.cn/large/0081Kckwgy1gl63n7t3stg30my075thy.gif)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl63n7t3stg30my075thy.gif)
 
 
 
@@ -632,7 +652,7 @@ int main(){
 Write a program which reads a rectangle and a circle, and determines whether the circle is arranged inside the rectangle. As shown in the following figures, the upper right coordinate (W,H)(W,H) of the rectangle and the central coordinate (x,y)(x,y) and radius rr of the circle are given.
 
 
-![Circle inside a rectangle](https://tva1.sinaimg.cn/large/0081Kckwgy1gl6aoy8rm5j30i9054mx2.jpg)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/0081Kckwgy1gl6aoy8rm5j30i9054mx2.jpg)
 
 
 
@@ -3282,7 +3302,7 @@ z : 0
 
 ##### 問題を解く
 
-本题要求我们统计输入的字符串的`a`~`z`的个数。大致的思路是先将输入的字符串大小写转换，因为我们不可能写26个字母的打印和计算，所以这里我们借助循环，数字的增长伴随着由`a`到`z`。
+本题要求我们统计输入的字符串的`a`到`z`的个数。大致的思路是先将输入的字符串大小写转换，因为我们不可能写26个字母的打印和计算，所以这里我们借助循环，数字的增长伴随着由`a`到`z`。
 
 ```c++
 #include <iostream>
@@ -3358,7 +3378,7 @@ Write a program which finds a pattern pp in a ring shaped text ss.
 
 
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmquxgnehqj3050056a9w.jpg)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmquxgnehqj3050056a9w.jpg)
 
 
 
@@ -3410,10 +3430,48 @@ No
 
 ##### 問題を解く
 
-
+本题要求我们从一个字符串中找到一个子串。我左思右想还是没有想到一个比较好的解决方法，于是求助于Solution找到一个较为便捷的方法：
 
 ```c++
+#include<iostream>
+#include<string>
+using namespace std;
 
+int main(){
+    string s,p;
+    cin >> s >> p;
+    s = s + s;
+    if(s.find(p) != -1) 
+        cout << "Yes" << endl;
+    else 
+        cout << "No" << endl;
+    
+    return 0;
+}
+```
+
+
+
+整个过程最大的盲区在于`find()` 函数，它本质上是一个模板函数，用于在指定范围内查找和目标元素值相等的第一个元素。如下为 `find()` 函数的语法格式：
+
+```c++
+InputIterator find (InputIterator first, InputIterator last, const T& val);
+```
+
+其中，`first` 和 `last` 为输入迭代器，`[first, last)` 用于指定该函数的查找范围；`val` 为要查找的目标元素。
+
+对于 `find()` 函数的底层实现，C++ 标准库中给出了参数代码，感兴趣的读者可自行研究：
+
+```c++
+template<class InputIterator, class T>
+InputIterator find (InputIterator first, InputIterator last, const T& val)
+{
+    while (first!=last) {
+        if (*first==val) return first;
+        ++first;
+    }
+    return last;
+}
 ```
 
 
@@ -3472,9 +3530,35 @@ END_OF_TEXT
 
 ##### 問題を解く
 
+本题要求我们从输入中统计出现特定字符串的个数。这里主要使用了`transform`函数来转换大小写，每次接收输入的字符串进行比较即可。
 
+```c++
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
 
+int main(){
+    string str;
+    cin >> str;
+    transform(str.begin(), str.end(), str.begin(), ::tolower);
 
+    int count = 0;
+    while(1){
+        string tmp;
+        cin >> tmp;
+        if(tmp == "END_OF_TEXT")
+            break;
+        transform(tmp.begin(), tmp.end(), tmp.begin(), ::tolower);
+        if(str == tmp)
+            count++;
+    }
+    cout << count << endl;
+    return 0;
+}
+```
+
+对于`transform(first,last,result,op);`，`first`是容器的首迭代器，`last`为容器的末迭代器，`result`为存放结果的容器，`op`为要进行操作的一元函数对象或`sturct`、`class`。
 
 
 
@@ -3561,7 +3645,45 @@ xyzvw
 
 ##### 問題を解く
 
+本题要求我们根据给定的字符串和位置更换字符的顺序。对于本题我们可以在遍历时把字符串切割为两部分，第一部分是位置数之后不变的字符串，我们优先把它们填充到`s`中；而第二部分是要调整位置的字符串，我们再填充到`s`的尾部即可。
 
+需要注意一定要对`str`赋值为最新迭代的`s`，否则该代码一直在对旧有的`str`操作而非填充后的`s`。
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    int n,m,k;
+    string str;
+
+    while ((cin >> str) && (str[0] != '-')){
+        string s = "";
+        cin >> n;
+
+        for (int i = 0; i < n; ++i) {
+            k = 0;
+            cin >> m;
+            for (int j = m; j < str.size(); ++j,++k) {
+                s[k] = str[j];
+            }
+
+            for (int l = 0; l < m; ++l,++k) {
+                s[k] = str[l];
+            }
+
+            for (int o = 0; o < str.size(); ++o) {
+                str[o] = s[o];
+            }
+        }
+        cout << str << endl;
+
+    }
+
+    return 0;
+}
+```
 
 
 
@@ -3611,11 +3733,126 @@ lion tiger
 
 ##### 問題を解く
 
+本题要求我们比对两个字符串的ASCII码的大小给两个人打分，最后输出两个人的分数。我试图寻找一些C++自带的现成比对函数，但这些都不太适用于这种情况，所以还是自己来写一遍。首先先写出函数的主体部分，打分部分由`judge()`函数执行：
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+void judge();
+
+int main(){
+    int n,num1 = 0,num2 = 0;
+    string str1,str2;
+    cin >> n;
+
+    for (int i = 0; i < n; ++i) {
+        cin >> str1 >> str2;
+
+        judge();
+    }
+
+    cout << num1 << " " << num2 << endl;
+    return 0;
+}
+
+void judge(){
+}
+```
 
 
 
+之后我们来考虑`judge()`函数的参数，两个字符串`str1`、`str2`肯定是要的，而两个人的分数`num1`、`num2`也需要我们去修改。需要注意打分需要传入地址，否则修改的内容不会返回主函数。
+
+```c++
+void judge(string str1,string str2,int& num1,int& num2);
+```
 
 
+
+本题的难点在于字符串本身不能用`>=<`去直接比较，所以我们这个函数逻辑就是遍历字符串，每次对两个字符串中字符的ASCII码进行比较并统计得分：
+
+```c++
+void judge(string str1,string str2,int& num1,int& num2){
+    int len1 = str1.size();
+    int len2 = str2.size();
+    int len = len1;
+
+    if (len1 < len2)
+        len = len2;
+
+    for (int i = 0; i < len; ++i) {
+        if (str1[i] > str2[i]){
+            num1 += 3;
+            break;
+        }
+        else if (str1[i] == str2[i]){
+            if (i == len - 1){
+                num1++;
+                num2++;
+            }
+        }
+        else{
+            num2 += 3;
+            break;
+        }
+    }
+}
+```
+
+
+
+完整源码如下：
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+void judge(string str1,string str2,int& num1,int& num2);
+
+int main(){
+    int n,num1 = 0,num2 = 0;
+    string str1,str2;
+    cin >> n;
+
+    for (int i = 0; i < n; ++i) {
+        cin >> str1 >> str2;
+
+        judge(str1,str2,num1,num2);
+    }
+
+    cout << num1 << " " << num2 << endl;
+    return 0;
+}
+
+void judge(string str1,string str2,int& num1,int& num2){
+    int len1 = str1.size();
+    int len2 = str2.size();
+    int len = len1;
+
+    if (len1 < len2)
+        len = len2;
+
+    for (int i = 0; i < len; ++i) {
+        if (str1[i] > str2[i]){
+            num1 += 3;
+            break;
+        }
+        else if (str1[i] == str2[i]){
+            if (i == len - 1){
+                num1++;
+                num2++;
+            }
+        }
+        else{
+            num2 += 3;
+            break;
+        }
+    }
+}
+```
 
 
 
@@ -3645,10 +3882,10 @@ For each print command, print a string in a line.
 
 ##### Constraints
 
-- 1≤1≤ length of str≤1000str≤1000
-- 1≤q≤1001≤q≤100
-- 0≤a≤b<0≤a≤b< length of strstr
-- for replace command, b−a+1=b−a+1= length of pp
+- 1 ≤ length of str ≤ 1000
+- 1 ≤ q ≤ 100
+- 0 ≤ a ≤ b < length of str
+- for replace command, b−a+1= length of p
 
 ##### Sample Input 1
 
@@ -3687,9 +3924,171 @@ abc
 
 ##### 問題を解く
 
+本题要求我们对给出的字符串执行输入的操作。这道题我们循序渐进先把主函数的输入输出部分写出来，其中接收指令这里我偷了个懒，因为字符串不能直接去比较，所以我们观察三个指令：打印`print`、替换`replace`、倒置`reverse`中第三个字母是各不相同的，所以我们接收指令只需要比较单个字符，以它作为`switch`语句中的分支条件即可：
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    int a,b,q;
+    char cmd;
+    string str;
+    cin >> str >> q;
+
+    for (int i = 0; i < q; ++i) {
+        string s,command;
+        cin >> command >> a >> b;
+        cmd = command[2];
+
+        switch (cmd) {
+            case 'i':{
+                print();
+                break;
+            }
+            case 'p':{
+                cin >> s;
+                replace();
+                break;
+            }
+            case 'v':{
+                reverse();
+                break;
+            }
+        }
+    }
+    return 0;
+}
+```
+
+再来考虑各个函数的参数，按照输入的格式写出来即可：
+
+```c++
+void print(string& str,int a,int b);
+void replace(string& str,int a,int b,string s);
+void reverse(string& str,int a,int b);
+```
+
+而打印和替换的函数都比较简单，因此直接给出源码不再赘述：
+
+```c++
+void print(string& str,int a,int b){
+    for (int i = a; i <= b; ++i) {
+        cout << str[i];
+    }
+    cout << endl;
+}
+
+void replace(string& str,int a,int b,string s){
+    int k = 0;
+    for (int i = a; i <= b; ++i,++k) {
+        str[i] = s[k];
+    }
+}
+```
 
 
 
+对于倒置函数，我的思路是先用一个临时的字符串`tmp`保存`str`中的所有信息，再对`tmp`从左至右倒置进行赋值，最后在把`tmp`倒回`str`中。其中比较难以理解的是倒置时的下标，我们可以举例思考一下：
+
+> 3 (a) --> 7 (b)
+>
+> <3, 7> <4, 6> <5, 5>
+
+观察规律下标可以写成`tmp[i] = str[a + b - i];`来表达。
+
+
+
+```c++
+void reverse(string& str,int a,int b){
+    string tmp;
+    for (int i = 0; i < str.size(); ++i) {
+        tmp[i] = str[i];
+    }
+
+    for (int i = a; i <= b; ++i) {
+        tmp[i] = str[a + b - i];
+    }
+
+    for (int i = 0; i < str.size(); ++i) {
+        str[i] = tmp[i];
+    }
+}
+```
+
+
+
+完整的源码如下：
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+void print(string& str,int a,int b);
+void replace(string& str,int a,int b,string s);
+void reverse(string& str,int a,int b);
+
+int main(){
+    int a,b,q;
+    char cmd;
+    string str;
+    cin >> str >> q;
+
+    for (int i = 0; i < q; ++i) {
+        string s,command;
+        cin >> command >> a >> b;
+        cmd = command[2];
+
+        switch (cmd) {
+            case 'i':{
+                print(str,a,b);
+                break;
+            }
+            case 'p':{
+                cin >> s;
+                replace(str,a,b,s);
+                break;
+            }
+            case 'v':{
+                reverse(str,a,b);
+                break;
+            }
+        }
+    }
+    return 0;
+}
+
+void print(string& str,int a,int b){
+    for (int i = a; i <= b; ++i) {
+        cout << str[i];
+    }
+    cout << endl;
+}
+
+void replace(string& str,int a,int b,string s){
+    int k = 0;
+    for (int i = a; i <= b; ++i,++k) {
+        str[i] = s[k];
+    }
+}
+
+void reverse(string& str,int a,int b){
+    string tmp;
+    for (int i = 0; i < str.size(); ++i) {
+        tmp[i] = str[i];
+    }
+
+    for (int i = a; i <= b; ++i) {
+        tmp[i] = str[a + b - i];
+    }
+
+    for (int i = 0; i < str.size(); ++i) {
+        str[i] = tmp[i];
+    }
+}
+```
 
 
 
@@ -3735,7 +4134,26 @@ Print the distance in real number. The output should not contain an absolute err
 
 ##### 問題を解く
 
+本题要求我们根据给的两点的坐标求出它们之间的距离。平面解析几何早已给出了公式：
 
+$distance = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$
+
+需要注意输出的位数，题目要求保持一定的精度。
+
+```c++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    double x1,y1,x2,y2;
+    cin >> x1 >> y1 >> x2 >> y2;
+
+    cout << setprecision(10) << sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2)) << endl;
+    return 0;
+}
+```
 
 
 
@@ -3777,9 +4195,80 @@ Print *S*, *L* and *h* in a line respectively. The output should not contain an 
 
 ##### 問題を解く
 
+本题给出一个三角形的两边及其夹角，要求我们给出三角形面积`S`、三角形周长`L`以及以`a`为底的高`h`。这道题的主要考查的是三角形的相关数学知识。三角函数可以求解出底高和面积：
+
++ $h = b \sin C$
++ $S = \frac{1}{2}ab \sin C$
+
+对于周长的求解我们首先要知道未知边的边长，然后三者加起来即可，这里需要用到三角形余弦定理：
+
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmwtsfa2nmj30eu0890sy.jpg)
+
+由此我们可以推出：
+
++ $c=\sqrt{a^2+b^2-2ab \cos C}$
++ $L = a + b + c = a + b + \sqrt{a^2+b^2-2ab \cos C}$
 
 
 
+```c++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    int a,b;
+    double C;
+    cin >> a >> b >> C;
+
+    cout << setprecision(10) << 0.5 * a * b * sin(C) << endl
+         << a + b + sqrt(a*a + b*b - 2*a*b*cos(C)) << endl
+         << b * sin(C) << endl;
+    return 0;
+}
+```
+
+
+
+输入题目中给出的样例验证，会发现错误
+
+###### Output
+
+```
+5.363979982
+12.97944536
+2.681989991
+```
+
+回到代码检查算法，并没有什么问题。再检查一遍，问题出在了角度上：`sin(90)!=sin(90度)`，那么我们对角度进行变换：
+
+$C/360 = C'/2\pi \qquad C' = \frac{\pi}{180}C$
+
+```c++
+C *= M_PI / 180;
+```
+
+修改之后输出恢复正常，源码如下：
+
+```c++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    int a,b;
+    double C;
+    cin >> a >> b >> C;
+    C *= M_PI / 180;
+
+    cout << setprecision(10) << 0.5 * a * b * sin(C) << endl
+         << a + b + sqrt(a*a + b*b - 2*a*b*cos(C)) << endl
+         << b * sin(C) << endl;
+    return 0;
+}
+```
 
 
 
@@ -3793,11 +4282,11 @@ Print *S*, *L* and *h* in a line respectively. The output should not contain an 
 
 > Time Limit : `1 sec` , Memory Limit : `131072 KB`
 
-You have final scores of an examination for n students. Calculate standard deviation of the scores $s_1, s_2 ... s_n$.
+You have final scores of an examination for $n$ students. Calculate standard deviation of the scores $s_1, s_2 ... s_n$.
 
 The variance $α^2$ is defined by
 
-$α2 = (∑^n_{i=1}(s_i - m)^2)/n$
+$α^2 = (∑^n_{i=1}(s_i - m)^2)/n$
 
 where *m* is an average of $s_i$. The standard deviation of the scores is the square root of their variance.
 
@@ -3814,7 +4303,7 @@ The input ends with single zero for *n*.
 
 ##### Output
 
-For each dataset, print the standard deviation in a line. The output should not contain an absolute error greater than $10^-4$.
+For each dataset, print the standard deviation in a line. The output should not contain an absolute error greater than $10^{-4}$.
 
 ##### Constraints
 
@@ -3844,7 +4333,42 @@ For each dataset, print the standard deviation in a line. The output should not 
 
 ##### 問題を解く
 
+本题要求我们求出给定数据的方差/标准差。题目已经给出了公式，按部就班的写就可以了。
 
+$α^2 = (∑^n_{i=1}(s_i - m)^2)/n$
+
+只需要注意最后输出的是标准差，也就是方差的平方，需要调用`sqrt()`函数。
+
+```c++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    int n;
+    double m,avg;
+    while ((cin >> n) && n){
+        int arr[n];
+        m = 0,avg = 0;
+
+        for (int i = 0; i < n; ++i){
+            cin >> arr[i];
+            avg += arr[i];
+        }
+        avg /= n;
+
+        for (int i = 0; i < n; ++i) {
+            m += (arr[i] - avg)*(arr[i] - avg);
+        }
+        m /= n;
+
+        cout << setprecision(10) << sqrt(m) << endl;
+    }
+
+    return 0;
+}
+```
 
 
 
@@ -3914,6 +4438,62 @@ Print the distance where $p=1,2,3$ and $∞$ in a line respectively. The output 
 
 ##### 問題を解く
 
+本题要求我们计算出给定公式的距离。其实就是要求熟练使用`<cmath>`中常见的数学函数：
+
++ `abs()` 绝对值
++ `sqrt()` 开平方
++ `pow()` 幂次函数
+
+题目已经给出了计算的公式 $D_{xy}=(∑^n_{i=1}|x_i−y_i|^p)^{\frac{1}{p}}$，我们可以推出不同$p$的计算公式：
+
++ 当$p=1$时，$D_{xy}=\Sigma^n_{i=1}(|x_i-y_i|)$
+
++ 当$p=2$时，$D_{xy}=\sqrt{\Sigma^n_{i=1}(|x_i-y_i|)^2}$
+
++ 当$p=3$时，$D_{xy}=\sqrt[3]{\Sigma^n_{i=1}(|x_i-y_i|)^3}$
+
+最后一个距离也给出了公式，求出所有$|x_i-y_i|$的最大值即可：$D_{xy}=max^n_{i=1}(|x_i−y_i|)$
+
+```c++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    int n;
+    double d1 = 0.0,d2 = 0.0,d3 = 0.0,d = 0.0;
+    cin >> n;
+    int x[n],y[n];
+
+    for (int i = 0; i < n; ++i)
+        cin >> x[i];
+    for (int i = 0; i < n; ++i)
+        cin >> y[i];
+    d = abs(x[0] - y[0]);
+    
+    for (int i = 0; i < n; ++i){
+        if (d < abs(x[i] - y[i]))
+            d = abs(x[i] - y[i]);
+
+        d1 += abs(x[i] - y[i]);
+        d2 += pow(abs(x[i] - y[i]),2);
+        d3 += pow(abs(x[i] - y[i]),3);
+    }
+
+    d2 = sqrt(d2);
+    d3 = pow(d3,1.0/3);
+
+    cout << setprecision(10)
+         << d1 << endl
+         << d2 << endl
+         << d3 << endl
+         << d << endl;
+
+    return 0;
+}
+```
+
 
 
 
@@ -3938,8 +4518,8 @@ Write a program to simulate rolling a dice, which can be constructed by the foll
 
 
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmuhrlov6nj30fc05ma9v.jpg)
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmuhrm1fuvj30dm03twea.jpg)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmuhrlov6nj30fc05ma9v.jpg)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmuhrm1fuvj30dm03twea.jpg)
 
 
 
@@ -3998,6 +4578,157 @@ EESWN
 
 ##### 問題を解く
 
+本题要求我们根据立方体旋转特性判断最终的置顶面数字。我们首先接收输入（数组`num`与命令`s`）并用`switch`语句进行选择分流，可以写出如下的基本架构：
+
+```c++
+int main(){
+    int num[6];
+    string s;
+    char cmd;
+
+    for (int i = 0; i < 6; ++i) {
+        cin >> num[i];
+    }
+    cin >> s;
+
+    for (int i = 0; i < s.length(); ++i) {
+        cmd = s[i];
+        switch (cmd) {
+            case 'N':
+                break;
+
+            case 'S':
+                break;
+
+            case 'W':
+                break;
+
+            case 'E':
+                break;
+        }
+    }
+
+    cout << endl;
+
+    return 0;
+}
+```
+
+
+
+解决该问题使用的思想是类似递归。假设现在1为置顶面，当发生旋转时其他数字会替代这个1，再次旋转时我们可以把这个数字看作之前的1，也就是旋转的变化是固定的，我们抓住这点问题就迎刃而解了。
+
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmuhrlov6nj30fc05ma9v.jpg)
+
+具体到这幅图而言，现在置顶面为1。当执行`S`操作时向下翻转，置顶面变为5，此时我们把5看作是之前的1，如果之前的1再执行`E`操作时置顶为4，而现在`S`操作中4的位置没有变化，所以最后置顶面为4，对应数字为8。
+
+所以对于`NSWE`四个操作我们可以画图想象四种旋转情况写出映射关系：
+
+```
+N:
+1 --> 2 4 --> 4
+2 --> 6 5 --> 1
+3 --> 3 6 --> 5
+
+S:
+1 --> 5 4 --> 4
+2 --> 1 5 --> 6
+3 --> 3 6 --> 2
+
+W:
+1 --> 3 4 --> 1
+2 --> 2 5 --> 5
+3 --> 6 6 --> 4
+
+E:
+1 --> 4 4 --> 6
+2 --> 2 5 --> 5
+3 --> 1 6 --> 3
+```
+
+最终体现在代码上就是`switch`中的顺序变化：
+
+```c++
+switch (cmd) {
+            case 'N':
+                setArr(num,arr[1],arr[5],arr[2],arr[3],arr[0],arr[4]);
+                break;
+
+            case 'S':
+                setArr(num,arr[4],arr[0],arr[2],arr[3],arr[5],arr[1]);
+                break;
+
+            case 'W':
+                setArr(num,arr[2],arr[1],arr[5],arr[0],arr[4],arr[3]);
+                break;
+
+            case 'E':
+                setArr(num,arr[3],arr[1],arr[0],arr[5],arr[4],arr[2]);
+                break;
+} 
+```
+
+
+
+完整源码如下：
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+void setArr(int* arr,int num0,int num1,int num2,int num3,int num4,int num5){
+    arr[0] = num0;
+    arr[1] = num1;
+    arr[2] = num2;
+    arr[3] = num3;
+    arr[4] = num4;
+    arr[5] = num5;
+}
+
+
+int main(){
+    int num[6],arr[6];
+    string s;
+    char cmd;
+
+    for (int i = 0; i < 6; ++i) {
+        cin >> num[i];
+        arr[i] = num[i];
+    }
+    cin >> s;
+
+    for (int i = 0; i < s.length(); ++i) {
+        for (int j = 0; j < 6; ++j) {
+            arr[j] = num[j];
+        }
+
+        cmd = s[i];
+        switch (cmd) {
+            case 'N':
+                setArr(num,arr[1],arr[5],arr[2],arr[3],arr[0],arr[4]);
+                break;
+
+            case 'S':
+                setArr(num,arr[4],arr[0],arr[2],arr[3],arr[5],arr[1]);
+                break;
+
+            case 'W':
+                setArr(num,arr[2],arr[1],arr[5],arr[0],arr[4],arr[3]);
+                break;
+
+            case 'E':
+                setArr(num,arr[3],arr[1],arr[0],arr[5],arr[4],arr[2]);
+                break;
+        }
+    }
+
+    cout << num[0] << endl;
+
+    return 0;
+}
+```
+
 
 
 
@@ -4014,7 +4745,7 @@ You are given integers on the top face and the front face after the dice was rol
 
 
 
-![](https://tva1.sinaimg.cn/large/008eGmZEly1gmuhuyzi7ij305603nmwx.jpg)
+![](https://cdn.jsdelivr.net/gh/Yousazoe/picgo-repo/img/008eGmZEly1gmuhuyzi7ij305603nmwx.jpg)
 
 
 
@@ -4022,9 +4753,9 @@ You are given integers on the top face and the front face after the dice was rol
 
 ##### Input
 
-In the first line, six integers assigned to faces are given in ascending order of their corresponding labels. In the second line, the number of questions qq is given.
+In the first line, six integers assigned to faces are given in ascending order of their corresponding labels. In the second line, the number of questions q is given.
 
-In the following qq lines, qq questions are given. Each question consists of two integers on the top face and the front face respectively.
+In the following q lines, q questions are given. Each question consists of two integers on the top face and the front face respectively.
 
 ##### Output
 
@@ -4058,7 +4789,132 @@ For each question, print the integer on the right side face.
 
 ##### 問題を解く
 
+本题要求我们按照之前的Dice1的立方体给出顶面和侧面，要我们输出两个面相邻的右侧面。
 
+对于本题我认为也是将旋转的规律找出来。当一个面置顶的时候，与它相对的那个面是不可能在侧面出现的，所以我们只需要考虑4个侧面即可。立方体一共有6个面，所以我们可以根据右手定律列出1到6每个数字置顶时侧面的情况：
+
+```
+1: 2 --> 3 --> 5 --> 4 --> 2
+2: 1 --> 4 --> 6 --> 3 --> 1
+3: 1 --> 2 --> 6 --> 5 --> 1
+4: 1 --> 5 --> 6 --> 2 --> 1
+5: 1 --> 3 --> 6 --> 4 --> 1
+6: 2 --> 4 --> 5 --> 3 --> 2
+```
+
+通过这种类似单链表的表现形式，我们可以发现在确定置顶面与其中一个侧面时侧面的后一个面就是我们要找的那个面。这里需要形成一个闭环，不然在表末尾就没有面对应了，在代码中对应到这个常数数组：
+
+```c++
+int dice[6][5]{
+    2,3,5,4,2,
+    1,4,6,3,1,
+    1,2,6,5,1,
+    1,5,6,2,1,
+    1,3,6,4,1,
+    2,4,5,3,2
+};
+```
+
+之后就很简单了，对应上面的数组找到对应的面数输出即可：
+
+```c++
+#include <iostream>
+using namespace std;
+
+int dice[6][5]{
+    2,3,5,4,2,
+    1,4,6,3,1,
+    1,2,6,5,1,
+    1,5,6,2,1,
+    1,3,6,4,1,
+    2,4,5,3,2
+};
+
+int find(int dice1[6][5],int m,int k){
+    for (int i = 0; i < 6; ++i) {
+        if (dice1[m - 1][i] == k)
+            return dice1[m - 1][i + 1];
+    }
+}
+
+int main(){
+    int arr[6],dice1[6][5];
+    int n,m,k;
+    for (int i = 0; i < 6; ++i) {
+        cin >> arr[i];
+    }
+
+    for (int i = 0; i < 6; ++i) {
+        for (int j = 0; j < 6; ++j) {
+            dice1[i][j] = arr[dice[i][j] - 1];
+        }
+    }
+
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        cin >> m >> k;
+        cout << find(dice1,m,k) << endl;
+    }
+
+    return 0;
+}
+```
+
+
+
+以上代码通过了样例，但在测试时出错，原因是在数字变为11时数组越界。调试发现问题是在`find`函数中直接使用了`m`作为数组参数，这是因为我默认了数字是1～6，当数字改变时数组就发生越界。
+
+所以我们需要编写一个匹配函数`findIndex`将`m`转换为数组参数，成功。
+
+```c++
+#include <iostream>
+using namespace std;
+
+int dice[6][5]{
+    2,3,5,4,2,
+    1,4,6,3,1,
+    1,2,6,5,1,
+    1,5,6,2,1,
+    1,3,6,4,1,
+    2,4,5,3,2
+};
+
+int find(int dice1[6][5],int index,int k){
+    for (int i = 0; i < 6; ++i) {
+        if (dice1[index][i] == k)
+            return dice1[index][i + 1];
+    }
+}
+
+int findIndex(int arr[6],int m){
+    for (int i = 0; i < 6; ++i) {
+        if (arr[i] == m)
+            return i;
+    }
+}
+
+int main(){
+    int arr[6],dice1[6][5];
+    int n,m,k;
+    for (int i = 0; i < 6; ++i) {
+        cin >> arr[i];
+    }
+
+    for (int i = 0; i < 6; ++i) {
+        for (int j = 0; j < 6; ++j) {
+            dice1[i][j] = arr[dice[i][j] - 1];
+        }
+    }
+
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        cin >> m >> k;
+        cout << find(dice1,findIndex(arr,m),k) << endl;
+    }
+
+    return 0;
+}
+```
 
 
 
@@ -4199,4 +5055,3 @@ Yes
 
 
  *Aizu Online Judge 2.0 © 2004-2017 University of Aizu*
-
