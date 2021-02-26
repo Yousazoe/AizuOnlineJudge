@@ -460,6 +460,149 @@ CMakeFiles/ITP1.dir/8_C.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/8_C.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/8_C.cpp -o CMakeFiles/ITP1.dir/8_C.cpp.s
 
+CMakeFiles/ITP1.dir/8_D.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/8_D.cpp.o: ../8_D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/ITP1.dir/8_D.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/8_D.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/8_D.cpp
+
+CMakeFiles/ITP1.dir/8_D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/8_D.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/8_D.cpp > CMakeFiles/ITP1.dir/8_D.cpp.i
+
+CMakeFiles/ITP1.dir/8_D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/8_D.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/8_D.cpp -o CMakeFiles/ITP1.dir/8_D.cpp.s
+
+CMakeFiles/ITP1.dir/9_A.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/9_A.cpp.o: ../9_A.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/ITP1.dir/9_A.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/9_A.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_A.cpp
+
+CMakeFiles/ITP1.dir/9_A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/9_A.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_A.cpp > CMakeFiles/ITP1.dir/9_A.cpp.i
+
+CMakeFiles/ITP1.dir/9_A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/9_A.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_A.cpp -o CMakeFiles/ITP1.dir/9_A.cpp.s
+
+CMakeFiles/ITP1.dir/9_B.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/9_B.cpp.o: ../9_B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/ITP1.dir/9_B.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/9_B.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_B.cpp
+
+CMakeFiles/ITP1.dir/9_B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/9_B.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_B.cpp > CMakeFiles/ITP1.dir/9_B.cpp.i
+
+CMakeFiles/ITP1.dir/9_B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/9_B.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_B.cpp -o CMakeFiles/ITP1.dir/9_B.cpp.s
+
+CMakeFiles/ITP1.dir/9_C.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/9_C.cpp.o: ../9_C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/ITP1.dir/9_C.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/9_C.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_C.cpp
+
+CMakeFiles/ITP1.dir/9_C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/9_C.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_C.cpp > CMakeFiles/ITP1.dir/9_C.cpp.i
+
+CMakeFiles/ITP1.dir/9_C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/9_C.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_C.cpp -o CMakeFiles/ITP1.dir/9_C.cpp.s
+
+CMakeFiles/ITP1.dir/9_D.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/9_D.cpp.o: ../9_D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/ITP1.dir/9_D.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/9_D.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_D.cpp
+
+CMakeFiles/ITP1.dir/9_D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/9_D.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_D.cpp > CMakeFiles/ITP1.dir/9_D.cpp.i
+
+CMakeFiles/ITP1.dir/9_D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/9_D.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/9_D.cpp -o CMakeFiles/ITP1.dir/9_D.cpp.s
+
+CMakeFiles/ITP1.dir/10_A.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/10_A.cpp.o: ../10_A.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/ITP1.dir/10_A.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/10_A.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_A.cpp
+
+CMakeFiles/ITP1.dir/10_A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/10_A.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_A.cpp > CMakeFiles/ITP1.dir/10_A.cpp.i
+
+CMakeFiles/ITP1.dir/10_A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/10_A.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_A.cpp -o CMakeFiles/ITP1.dir/10_A.cpp.s
+
+CMakeFiles/ITP1.dir/10_B.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/10_B.cpp.o: ../10_B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/ITP1.dir/10_B.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/10_B.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_B.cpp
+
+CMakeFiles/ITP1.dir/10_B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/10_B.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_B.cpp > CMakeFiles/ITP1.dir/10_B.cpp.i
+
+CMakeFiles/ITP1.dir/10_B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/10_B.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_B.cpp -o CMakeFiles/ITP1.dir/10_B.cpp.s
+
+CMakeFiles/ITP1.dir/10_C.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/10_C.cpp.o: ../10_C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/ITP1.dir/10_C.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/10_C.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_C.cpp
+
+CMakeFiles/ITP1.dir/10_C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/10_C.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_C.cpp > CMakeFiles/ITP1.dir/10_C.cpp.i
+
+CMakeFiles/ITP1.dir/10_C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/10_C.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_C.cpp -o CMakeFiles/ITP1.dir/10_C.cpp.s
+
+CMakeFiles/ITP1.dir/10_D.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/10_D.cpp.o: ../10_D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/ITP1.dir/10_D.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/10_D.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_D.cpp
+
+CMakeFiles/ITP1.dir/10_D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/10_D.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_D.cpp > CMakeFiles/ITP1.dir/10_D.cpp.i
+
+CMakeFiles/ITP1.dir/10_D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/10_D.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/10_D.cpp -o CMakeFiles/ITP1.dir/10_D.cpp.s
+
+CMakeFiles/ITP1.dir/11_A.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/11_A.cpp.o: ../11_A.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/ITP1.dir/11_A.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/11_A.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_A.cpp
+
+CMakeFiles/ITP1.dir/11_A.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/11_A.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_A.cpp > CMakeFiles/ITP1.dir/11_A.cpp.i
+
+CMakeFiles/ITP1.dir/11_A.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/11_A.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_A.cpp -o CMakeFiles/ITP1.dir/11_A.cpp.s
+
+CMakeFiles/ITP1.dir/11_B.cpp.o: CMakeFiles/ITP1.dir/flags.make
+CMakeFiles/ITP1.dir/11_B.cpp.o: ../11_B.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/ITP1.dir/11_B.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ITP1.dir/11_B.cpp.o -c /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_B.cpp
+
+CMakeFiles/ITP1.dir/11_B.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ITP1.dir/11_B.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_B.cpp > CMakeFiles/ITP1.dir/11_B.cpp.i
+
+CMakeFiles/ITP1.dir/11_B.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ITP1.dir/11_B.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/apple/Desktop/AizuOnlineJudge/ITP1/11_B.cpp -o CMakeFiles/ITP1.dir/11_B.cpp.s
+
 # Object files for target ITP1
 ITP1_OBJECTS = \
 "CMakeFiles/ITP1.dir/1_A.cpp.o" \
@@ -492,7 +635,18 @@ ITP1_OBJECTS = \
 "CMakeFiles/ITP1.dir/7_D.cpp.o" \
 "CMakeFiles/ITP1.dir/8_A.cpp.o" \
 "CMakeFiles/ITP1.dir/8_B.cpp.o" \
-"CMakeFiles/ITP1.dir/8_C.cpp.o"
+"CMakeFiles/ITP1.dir/8_C.cpp.o" \
+"CMakeFiles/ITP1.dir/8_D.cpp.o" \
+"CMakeFiles/ITP1.dir/9_A.cpp.o" \
+"CMakeFiles/ITP1.dir/9_B.cpp.o" \
+"CMakeFiles/ITP1.dir/9_C.cpp.o" \
+"CMakeFiles/ITP1.dir/9_D.cpp.o" \
+"CMakeFiles/ITP1.dir/10_A.cpp.o" \
+"CMakeFiles/ITP1.dir/10_B.cpp.o" \
+"CMakeFiles/ITP1.dir/10_C.cpp.o" \
+"CMakeFiles/ITP1.dir/10_D.cpp.o" \
+"CMakeFiles/ITP1.dir/11_A.cpp.o" \
+"CMakeFiles/ITP1.dir/11_B.cpp.o"
 
 # External object files for target ITP1
 ITP1_EXTERNAL_OBJECTS =
@@ -528,9 +682,20 @@ ITP1: CMakeFiles/ITP1.dir/7_D.cpp.o
 ITP1: CMakeFiles/ITP1.dir/8_A.cpp.o
 ITP1: CMakeFiles/ITP1.dir/8_B.cpp.o
 ITP1: CMakeFiles/ITP1.dir/8_C.cpp.o
+ITP1: CMakeFiles/ITP1.dir/8_D.cpp.o
+ITP1: CMakeFiles/ITP1.dir/9_A.cpp.o
+ITP1: CMakeFiles/ITP1.dir/9_B.cpp.o
+ITP1: CMakeFiles/ITP1.dir/9_C.cpp.o
+ITP1: CMakeFiles/ITP1.dir/9_D.cpp.o
+ITP1: CMakeFiles/ITP1.dir/10_A.cpp.o
+ITP1: CMakeFiles/ITP1.dir/10_B.cpp.o
+ITP1: CMakeFiles/ITP1.dir/10_C.cpp.o
+ITP1: CMakeFiles/ITP1.dir/10_D.cpp.o
+ITP1: CMakeFiles/ITP1.dir/11_A.cpp.o
+ITP1: CMakeFiles/ITP1.dir/11_B.cpp.o
 ITP1: CMakeFiles/ITP1.dir/build.make
 ITP1: CMakeFiles/ITP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable ITP1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX executable ITP1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ITP1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

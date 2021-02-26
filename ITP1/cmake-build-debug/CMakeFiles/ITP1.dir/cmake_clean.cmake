@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ITP1.dir/10_A.cpp.o"
+  "CMakeFiles/ITP1.dir/10_B.cpp.o"
+  "CMakeFiles/ITP1.dir/10_C.cpp.o"
+  "CMakeFiles/ITP1.dir/10_D.cpp.o"
+  "CMakeFiles/ITP1.dir/11_A.cpp.o"
+  "CMakeFiles/ITP1.dir/11_B.cpp.o"
   "CMakeFiles/ITP1.dir/1_A.cpp.o"
   "CMakeFiles/ITP1.dir/1_B.cpp.o"
   "CMakeFiles/ITP1.dir/1_C.cpp.o"
@@ -30,6 +36,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/ITP1.dir/8_A.cpp.o"
   "CMakeFiles/ITP1.dir/8_B.cpp.o"
   "CMakeFiles/ITP1.dir/8_C.cpp.o"
+  "CMakeFiles/ITP1.dir/8_D.cpp.o"
+  "CMakeFiles/ITP1.dir/9_A.cpp.o"
+  "CMakeFiles/ITP1.dir/9_B.cpp.o"
+  "CMakeFiles/ITP1.dir/9_C.cpp.o"
+  "CMakeFiles/ITP1.dir/9_D.cpp.o"
   "ITP1"
   "ITP1.pdb"
 )
