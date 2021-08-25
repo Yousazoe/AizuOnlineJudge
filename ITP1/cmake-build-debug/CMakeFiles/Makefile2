@@ -44,10 +44,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/apple/Desktop/AizuOnlineJudge/ITP1
+CMAKE_SOURCE_DIR = /Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/ITP1.dir/clean
 CMakeFiles/ITP1.dir/all:
 	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/depend
 	$(MAKE) -f CMakeFiles/ITP1.dir/build.make CMakeFiles/ITP1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target ITP1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ITP1"
 .PHONY : CMakeFiles/ITP1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ITP1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ITP1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ITP1.dir/rule
 
 # Convenience name for target.

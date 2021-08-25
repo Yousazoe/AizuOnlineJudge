@@ -8,205 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug"/>
+				<Option working_dir="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug"/>
+				<Option working_dir="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug"/>
+				<Option working_dir="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITP1">
-				<Option output="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/ITP1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug"/>
+				<Option output="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/ITP1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ITP1/fast">
-				<Option output="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/ITP1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug"/>
+				<Option output="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/ITP1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ITP1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/10_A.cpp">
+		<Unit filename="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/main.cpp">
 			<Option target="ITP1"/>
 		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/10_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/10_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/10_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/11_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/11_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/1_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/1_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/1_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/1_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/2_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/2_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/2_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/2_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/3_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/3_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/3_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/3_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/4_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/4_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/4_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/4_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/5_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/5_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/5_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/5_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/6_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/7_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/8_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/9_A.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/9_B.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/9_C.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/9_D.cpp">
-			<Option target="ITP1"/>
-		</Unit>
-		<Unit filename="/Users/apple/Desktop/AizuOnlineJudge/ITP1/CMakeLists.txt">
+		<Unit filename="/Users/apple/Desktop/Dev/AizuOnlineJudge/ITP1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
